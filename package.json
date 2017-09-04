@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "node index.js",
+        "test": "nodemon index.js"
+    },
+    "dependencies": {
+        "axios": "latest",
+        "express": "latest",
+        "cors": "latest",
+        "body-parser": "latest",
+        "nodemon": "latest"
+    }
+}
