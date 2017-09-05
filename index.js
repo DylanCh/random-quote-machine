@@ -10,7 +10,7 @@ app.use( bodyParser.json());
 
 var MakeRequest = (cat, count,res)=>{
     axios.get(`${BASE_URL}/?cat=${cat}&count=${count}`,
-        {headers:{"X-Mashape-Key":"a9YGCRpdKtmshWMqCZlcdkHcuGEOp1n0Uk9jsnmJM7DfPwwQBG"}})
+        {headers:{"X-Mashape-Key":""}})
         .then(response=>{
             res.json(response.data);
         });
